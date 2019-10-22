@@ -721,7 +721,6 @@ if( ! defined('ABSPATH') ) { die; }
 
 use Inc\Activate;
 use Inc\Deactivate;
-use Inc\Admin\AdminPages;
 
 if ( !class_exists( 'SuperSide' ) ) {
 
