@@ -754,14 +754,9 @@ if ( !class_exists( 'SuperSide' ) ) {
 			
 			add_action( 'admin_enqueue_scripts', array( $this, 'admin_enqueue' ) ); // Admin CSS & JS
 			
-			
+			add_action( 'admin_menu', array( $this, 'add_admin_pages' ) ); // Settings Menu
 			
 			add_filter("plugin_action_links_$this->plugin" , array($this, 'settings_link') );
-		}
-		
-		public function register() {
-		
-			add_action( 'admin_menu', array( $this, 'add_admin_pages' ) ); // Settings Menu
 		}
 
 		public function add_admin_pages() {
