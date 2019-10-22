@@ -764,8 +764,7 @@ if ( !class_exists( 'SuperSide' ) ) {
 		}
 
 		public function admin_index() {
-			echo $this->plugin . 'templates/admin.php';
-			require_once $this->plugin . 'templates/admin.php';
+			require_once plugin_dir_path( __FILE__ ) . 'templates/admin.php';
 		}
 		
 		public function settings_link( $links ) {
