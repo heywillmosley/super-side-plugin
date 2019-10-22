@@ -1,0 +1,26 @@
+.sc-card.sc-card-sm {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: solid 1px #DDD;
+}
+.sc-card.sc-card-sm img {
+    max-width: 100px;
+}
+.sc-card.sc-card-sm p {
+    color: gray;
+    margin-bottom: 5px !important;
+}
+.sc-card.sc-card-sm p, .sc-card.sc-card-sm a {
+    font-size: 12px;
+}
+
+.card {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.card-img-top {
+    padding-bottom: 20px;
+}
+.card img {
+    border: none !important;
+}
